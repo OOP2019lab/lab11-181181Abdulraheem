@@ -1,0 +1,15 @@
+Output for Exercise 6
+Ans (a) Names are protected that they are always hidden from the derived classes but age is protected that it is hidden from the user but can be accessible to derived classes
+
+Ans (b)
+Error : cannot access private members declared in class 'person'
+Ans: Error comes because we learnt that the private members of Base class is always hidden to derived class No matter what the access specifie in derived class.
+In this he tried to access that private members thatwhy error appears
+
+
+
+Ques 8
+Ans Its doesnt give any any error, the effect of it is that the members of base class becomes protected to derived class no matter initially they were public private or protcted
+
+Ques 9
+Ans It again doesnt give any any error, the effect of it is that the members of base class becomes private to derived class no matter initially they were public private or protected
